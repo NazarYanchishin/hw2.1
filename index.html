@@ -60,26 +60,31 @@
             </td>
             <td> yura@gmail.com
             </td>
-            </tr>
+        </tr>
     </table>
 </div>
-<br>
-<form>
 
-    імя: <br>
-    <input type="text" name="імя" placeholder="Введіть ім'я">
-    <br>
-    прізвище: <br>
-    <input type="text" name="прізвище" placeholder="Введіть прізвище"> <br>
-    Ваша стать? <br>    <input type="radio" name="gender" value ="male">
-    М <br>
-    <input type="radio" name="gender" value="female">
-    Ж <br>
-    <textarea rows="5"   placeholder="Введіть ваш коментар"></textarea>
-    <br>
-    Виберіть місто <br>
+<form>
+    <p>
+        <input type="text" name="імя" placeholder="Введіть ім'я">
+    </p>
+    <p>
+        <input type="text" name="прізвище" placeholder="Введіть прізвище">
+    </p>
+    <p>Ваша стать?</p>
+    <p>
+        <input type="radio" name="gender" value="male" checked>
+        <label>М</label>
+    </p>
+    <p>
+        <input type="radio" name="gender" value="female">
+        <span>Ж</span>
+    </p>
+    <textarea rows="5" placeholder="Введіть ваш коментар"></textarea>
+
+    <p>Виберіть місто</p>
     <select name="city">
-        <option hidden selected value disabled >Виберіть місто</option>
+        <option hidden selected value disabled>Виберіть місто</option>
         <option>Львів</option>
         <option>Київ</option>
         <option>Одеса</option>
@@ -88,13 +93,13 @@
         <option>Полтава</option>
         <option>Інше</option>
     </select>
-    <br>
-    Виберіть мову
-    <br>
+
+    <p>Виберіть мову</p>
+
     <input type="checkbox" name="mova" value="en">en <br>
     <input type="checkbox" name="mova2" value="ru">ru <br>
     <input type="checkbox" name="mova2" value="ua">ua <br>
-<button>Надіслати</button>
+    <button>Надіслати</button>
 
 </form>
 
