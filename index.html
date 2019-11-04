@@ -65,26 +65,24 @@
 </div>
 
 <form>
-    <p>
-        <input type="text" name="імя" placeholder="Введіть ім'я">
-    </p>
-    <p>
+    <div style="padding: 10px 0 10px 0" >
+        <input  type="text" name="імя" placeholder="Введіть ім'я">
+    </div>
+    <div>
         <input type="text" name="прізвище" placeholder="Введіть прізвище">
-    </p>
+    </div>
     <p>Ваша стать?</p>
-    <p>
-        <input type="radio" name="gender" value="male" checked>
-        <label>М</label>
-    </p>
-    <p>
-        <input type="radio" name="gender" value="female">
-        <span>Ж</span>
-    </p>
+    <div>
+        <label><input type="radio" name="gender" value="male" checked>М</label>
+    </div>
+   <div>
+        <label><input type="radio" name="gender" value="female">Ж</label>
+    </div>
     <textarea rows="5" placeholder="Введіть ваш коментар"></textarea>
 
     <p>Виберіть місто</p>
     <select name="city">
-        <option hidden selected value disabled>Виберіть місто</option>
+        <option  selected value disabled>Виберіть місто</option>
         <option>Львів</option>
         <option>Київ</option>
         <option>Одеса</option>
@@ -96,10 +94,18 @@
 
     <p>Виберіть мову</p>
 
-    <input type="checkbox" name="mova" value="en">en <br>
-    <input type="checkbox" name="mova2" value="ru">ru <br>
-    <input type="checkbox" name="mova2" value="ua">ua <br>
-    <button>Надіслати</button>
+    <div>
+        <label> <input type="checkbox" name="mova" value="en">en </label>
+    </div>
+    <div>
+        <label><input type="checkbox" name="mova2" value="ru">ru</label>
+    </div>
+    <div>
+        <labele><input type="checkbox" name="mova2" value="ua">ua </label>
+    </div>
+    <div>
+        <button>Надіслати</button>
+    </div>
 
 </form>
 
